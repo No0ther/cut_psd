@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.menu-header {
+    background: #ccc;
+    height: 40px;
+}
+.menu-header ul{
+    list-style-type: none;
+}
+.menu-header ul li{
+    padding: 10px;
+    float: right;
+}
+.header-content {
+
+    background: #eee;
+}
+.header-content-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content_logo {
+    display: flex;
+    position: relative;
+    margin-right: 60px;
+}
+.header-content_logo p {
+    font-size: 21px;
+    position: absolute;
+    top: 42%;
+    font-weight: 600;
+    color: #fff;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.header-content_logo span {
+    transform: rotate(270deg);
+    position: absolute;
+    right: -46px;
+    top: 26px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.header-content_search {
+    background: green;
+    display: flex;
+    justify-items: center;
+    padding: 5px;
+    width: 55%;
+}
+.header-content_search input{
+   height: 25px;
+   width: 82%;
+   margin-right:10px ;
+}
+.header-content_search button.btn-search {
+    background: transparent;
+    box-shadow: 0 0 0;
+    border: none;
+}
+
+.header-content_search p {margin-top: 5px; margin-left: 5px; color: #fff;}
+.header-content_cart-top {
+    display: flex;
+    align-items: center;
+}
+.header-content_cart-top a{
+    margin-right: 5px;
+}
+.header-content_cart-top p{
+    font-weight: 600;
+    color: gray;
+}
+.header-content_cart-top span {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.header-content_cart-tbottom span{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 6px;
+    font-family: monospace;
+    color: gray;
+}
+.header-content_cart-tbottom button{
+    font-size: 12px;
+    background: black;
+    color: #fff;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+}
+.header-content_wish-list {
+    text-align: center;
+}
+.header-content_wish-list p{
+    position: relative;
+}
+.header-content_wish-list p::after{
+    content: '20';
+    position: absolute;
+    right: -5px;
+    font-size: 11px;
+    top: -11px;
+    background: #79b260;
+    padding: 0 2px;
+    border-radius: 3px;
+}
